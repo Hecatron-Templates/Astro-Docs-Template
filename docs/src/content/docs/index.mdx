@@ -1,40 +1,39 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: starlight-theme-black
+description: Starlight theme inspired by Shadcn docs
+head:
+  - tag: title
+    content: starlight-theme-black
+template: splash
+editUrl: false
 hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
+  announcement:
+    text: Introduce AI Utilities
+    link: /ai-utilities/
+  tagline: Starlight theme inspired by Shadcn docs
   actions:
-    - text: Example Guide
-      link: /docs-astro-template/topic1/
-      icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: Get Started
+      link: /getting-started/
+    - text: Examples
+      link: /examples/kitchen-sink/
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid } from '@astrojs/starlight/components'
 
 ## Next steps
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="Install the theme" icon="puzzle">
+    Check the [getting started guide](/getting-started/) for installation instructions.
+  </Card>
+  <Card title="Configure the theme" icon="setting">
+    Edit your config in the `astro.config.mjs` file.
+  </Card>
+  <Card title="Preview the theme" icon="seti:image">
+    Check out the [example pages](/examples/kitchen-sink/) to see the theme in action.
+  </Card>
+  <Card title="Read the docs" icon="open-book">
+    Learn more in the [`starlight-theme-black` documentation](/getting-started/).
+  </Card>
 </CardGrid>
