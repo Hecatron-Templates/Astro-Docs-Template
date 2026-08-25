@@ -20,7 +20,7 @@ export default defineConfig({
       },
       social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Hecatron-Templates/docs-astro-template' }],
       customCss: [
-        './src/styles/themes/theme-apex.css',
+        './src/styles/themes/theme-deep-purple.css',
       ],
       editLink: {
         baseUrl: 'https://github.com/Hecatron-Templates/docs-astro-template/edit/master/docs/',
