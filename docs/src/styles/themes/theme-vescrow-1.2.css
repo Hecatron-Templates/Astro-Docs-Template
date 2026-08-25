@@ -1,7 +1,4 @@
 :root {
-  --sl-font: var(--font-roboto);
-  --sl-font-mono: var(--font-jetbrains-mono);
-
   --background: oklch(0.9924 0.0028 308.4292);
   --foreground: oklch(0.1288 0.0219 314.0129);
   --card: oklch(1.0000 0 0);
