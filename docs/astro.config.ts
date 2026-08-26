@@ -6,6 +6,8 @@ import starlightSidebarTopics from 'starlight-sidebar-topics';
 import starlightAutoDrafts from 'starlight-auto-drafts';
 import { generateSidebarGroups } from './src/sidebar_grps.mjs';
 
+console.log(generateSidebarGroups('topic1/', './src/content/docs/topic1'));
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://hecatron-templates.github.io/docs-astro-template/',
